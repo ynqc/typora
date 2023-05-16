@@ -41,7 +41,7 @@ query 2 = Query.from(query1).select(Column).filter().filterGroup()
 | Table           |                | Table('activity', “A”)                                       | TABLE/ Table.COLUMN             |
 |                 | .columns       |                                                              |                                 |
 | Column          |                | Column('portfolio_code',   ‘portfolioCode’)                  |                                 |
-|                 |                | [Column, Column]                                             | List                            |
+|                 |                | [Column, Column].    Column(a.id, ‘a’)                       | List                            |
 |                 |                | Column('portfolio_code')                                     |                                 |
 |                 |                | Column('portfolio_code', type=“time/date/bool”)              |                                 |
 |                 |                | Column(ColumnA- ColumnB, ‘C’)                                |                                 |

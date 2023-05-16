@@ -13,30 +13,30 @@ graphql
 
 大小（1.7KB）
 
-|                            | 时间     | 开始时间                   | 结束时间                   |
-| -------------------------- | -------- | -------------------------- | -------------------------- |
-| **浏览器**                 |          |                            |                            |
-| Waiting for server respons | 897.61   |                            |                            |
-| Initial connection         | 490.67   |                            |                            |
-| content download           | 0.37     |                            |                            |
-| Request                    | 1390     |                            |                            |
-|                            |          |                            |                            |
-| **Graphql 记录时间**       |          |                            |                            |
-| as_of_date trino query     | 24.11    | 2023-03-30T07:43:35.388Z   | 2023-03-30T07:43:35.412Z   |
-| custom_property_portfolio  | 29.64    | 2023-03-30T07:43:35.425Z   | 2023-03-30T07:43:35.454Z   |
-| Filter  trino query        | 341      | 2023-03-30 07:44:52.945048 | 2023-03-30 07:44:52.945048 |
-| graphql query              | 342      | 2023-03-30 07:44:52.944942 | 2023-03-30 07:44:53,287    |
-| Graphql resolver           | 367      | 2023-03-30 07:44:52.931289 | 2023-03-30 07:44:53,298    |
-| Graphql request            | 375      | 2023-03-30 07:44:52.925602 | 2023-03-30 07:44:53,300    |
-| **Trino 记录时间**         |          | 2023-03-30T07:44:52.957Z   | 2023-03-30T07:44:53.285Z   |
-| elapsedTime                | 328.71ms |                            |                            |
-| queuedTime                 | 867.82us |                            |                            |
-| resourceWaitingTime        | 3.91ms   |                            |                            |
-| dispatchingTime            | 39.80us  |                            |                            |
-| executionTime              | 323.90ms |                            |                            |
-| analysisTime               | 4.14ms   |                            |                            |
-| planningTime               | 78.75ms  |                            |                            |
-| finishingTime              | 2.30ms   |                            |                            |
+| Browser                    | Total Time | Start Time                 | End Time                   |
+| -------------------------- | ---------- | -------------------------- | -------------------------- |
+|                            |            |                            |                            |
+| Waiting for server respons | 897.61     |                            |                            |
+| Initial connection         | 490.67     |                            |                            |
+| content download           | 0.37       |                            |                            |
+| Request                    | 1390       |                            |                            |
+|                            |            |                            |                            |
+| **Graphql record time**    |            |                            |                            |
+| as_of_date trino query     | 24.11      | 2023-03-30T07:43:35.388Z   | 2023-03-30T07:43:35.412Z   |
+| custom_property_portfolio  | 29.64      | 2023-03-30T07:43:35.425Z   | 2023-03-30T07:43:35.454Z   |
+| Filter  trino query        | 341        | 2023-03-30 07:44:52.945048 | 2023-03-30 07:44:52.945048 |
+| graphql query              | 342        | 2023-03-30 07:44:52.944942 | 2023-03-30 07:44:53,287    |
+| Graphql resolver           | 367        | 2023-03-30 07:44:52.931289 | 2023-03-30 07:44:53,298    |
+| Graphql request            | 375        | 2023-03-30 07:44:52.925602 | 2023-03-30 07:44:53,300    |
+| **Trino record time**      |            | 2023-03-30T07:44:52.957Z   | 2023-03-30T07:44:53.285Z   |
+| elapsedTime                | 328.71ms   |                            |                            |
+| queuedTime                 | 867.82us   |                            |                            |
+| resourceWaitingTime        | 3.91ms     |                            |                            |
+| dispatchingTime            | 39.80us    |                            |                            |
+| executionTime              | 323.90ms   |                            |                            |
+| analysisTime               | 4.14ms     |                            |                            |
+| planningTime               | 78.75ms    |                            |                            |
+| finishingTime              | 2.30ms     |                            |                            |
 
 |                             | 时间     | 开始时间                   | 结束时间                 |
 | --------------------------- | -------- | -------------------------- | ------------------------ |
